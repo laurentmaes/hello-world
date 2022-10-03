@@ -8,11 +8,12 @@ This is my first step with git. It's now time to dive ...
 ## Transformation
 Le but de la transformation est d'éviter de dupliquer tous les entêtes et pieds de pages communs à toutes les pages. Pour cela, on va isoler dans 2 fichiers le contenu de l'entête et du pied de page, et on va modifier les pages existantes pour enlever ces 2 parties redondantes.
 ### Ensuite ?
-Ensuite, avant de pousser le code sur Github, on lancera un script qui se chargera d'assembler chaque page et de la déposer dans un répertoire dédié : ``/docs``
+Ensuite, *avant* de pousser le code sur Github, on lancera un script qui se chargera d'assembler chaque page et de la déposer dans un répertoire dédié : ``/docs``
 
 ## Comment faire ?
 1. Créer un répertoire /docs.
 2. Modifier Github pages pour lui indiquer que ce répertoire sera la base pour les pages web.
+3. Si besoin, modifier aussi le serveur local vers ce nouveau répertoire.
 
 ## Après ?
 1. Déplacer les 3 répertoires suivants dans /docs :  ``css, js, img``
