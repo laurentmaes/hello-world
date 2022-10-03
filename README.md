@@ -6,7 +6,8 @@ Ensuite, *avant* de pousser le code sur Github, on lancera un script qui se char
 
 ## Comment faire ?
 1. Créer un répertoire /docs.
-2. Modifier Github pages pour lui indiquer que ce répertoire sera la base pour les pages web.
+2. Modifier *Github pages* pour lui indiquer que ce répertoire sera la base pour les pages web :
+   Aller dans *Settings* / *Pages* et remplacer ``/(root)`` par ``/docs`` dans le choix déroulant.
 3. Si besoin, modifier aussi le serveur local vers ce nouveau répertoire.
 
 ## Après ?
@@ -18,9 +19,10 @@ Ensuite, *avant* de pousser le code sur Github, on lancera un script qui se char
 ## On continue ...
 1. Créer un fichier 01.HEADER.html (au même niveau que README.md), l'éditer pour qu'il contienne l'entête commun à toutes les pages.
 2. Créer un fichier 02.FOOTER.html (au même niveau que README.md),l'éditer pour qu'il contienne le pied de page commun à toutes les pages.
+Ce sont ces 2 fichiers qu'il suffira de modifier si on doit procéder à une modification globale des entêtes/pieds de page.
 3. Modifier le script build.site.cmd pour indiquer la liste des pages 
 
-Ce sont ces 2 fichiers qu'il suffira de modifier si on doit procéder à une modification globale des entêtes/pieds de page.
+
 
 ## Enfin :
 1. Avant chaque déploiement sur Git, lancer le script build.site.cmd
