@@ -16,3 +16,10 @@ SET FILE=contact.html
 COPY 01.HEADER.html+src\%FILE%+02.FOOTER.html docs\%FILE%
 
 REM Dupliquer les 2 lignes ci-dessus pour chaque fichier à reconstruire
+
+
+REM Si on veut pousser automatiquement sur Gitlab :
+
+git add .
+git commit -m "Modif"
+git push
