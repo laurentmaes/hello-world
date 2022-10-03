@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html {
+    scroll-behavior: smooth ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', sans-serif;
+    background:rgb(36, 36, 36);
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    border-bottom: 5px solid #6f6f6f ;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    
+}
+
+nav {
+    background-color: #000;
+}
+
+
+
+nav h1{
+    color:  #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    
+}
+
+nav .onglets a{
+    text-decoration: none;
+    margin-right: 10px ;
+    border-bottom: 1px solid black ;
+    padding-bottom: 5px;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 45px;
+}
+/* bannniere de page debut */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4eb5f1;
+    background-size: cover;
+    color: rgb(252, 252, 252);
+    padding: 50px;
+}
+
+
+header h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    
+}
+
+header h1{
+    text-shadow:  
+        1px 1px #919191,
+        1px 2px #919191,
+        1px 3px #919191,
+        1px 4px #919191,
+        1px 5px #919191,
+        1px 6px #919191,
+        1px 7px #919191,
+        1px 8px #919191,
+        1px 9px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px #2d2d2d66,
+    1px 22px 10px #2d2d2d66,
+    1px 25px 35px #2d2d2d66,
+    1px 30px 60px #2d2d2d67;
+
+}
+
+
+header h4{
+    margin-top: -20px;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 247, 247);
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* fin de la banniére */
+nav .onglets{
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+section p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+section h1{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+section h1{
+    text-decoration: underline;
+  
+}
+
+section {
+    padding: 10px 20px;
+    margin-top: 10px 50px;
+}
+
+.form-style {
+    margin:10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  .form-style label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+    color: #fff;
+  }
+  .form-style .required{
+    color:red;
+  }
+  .form-style input[type=submit], .form-style input[type=reset]{
+    background: #00a2ff;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+  }
+
+  .form-style .field-textarea{
+    height: 100px;
+  }
+  
+  .form-style .long{
+    width: 100%;
+  }
+  
+nav .onglets h4{
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.main{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+
+.main .left::after, .main .left::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: rgba(255, 250, 250, 0);
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition: tranform 0.3s ease;
+}
+.main .left:hover{
+    transform: translate(-12px, -12px);
+}
+
+.main .left:hover::after{
+    transform: translate(6px, 6px);
+}
+
+.main .left:hover::before{
+    transform: translate(12px, 12px);
+}
+
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin: 5px;
+}
+
+p{
+    text-align: left;
+    margin-top:10px;
+    padding: 10px;
+}
+/* login */
+
+h1.login2 a{
+    color: rgb(3, 104, 151);
+
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: rgb(173, 161, 226);
+    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #2e8733;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+section.login1{
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+}
+
+/* pied de page */
+
+footer {
+    margin-top: 40px;
+    border-top:  5px solid #6f6f6f6f;
+    background-color: black;
+    color: #fff;
+    padding: 30px 100px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-family: 30px;
+}
+
+footer h3{
+ font-family: Arial, Helvetica, sans-serif;
+ font-family: 30px
+}
+
+
+footer h1{
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    padding-bottom: 5px;
+    font-size: 50px;
+}
+footer .projets{
+    margin-top:-10px;
+    display:flex;
+    flex-wrap:wrap;
+    font-family: 30px;
+}
+
+footer .projets .projet{
+    margin-right: 30px;
+    padding: 10px;
+    font-family: 30px;
+    
+
+}
+
+footer .projets .projet p{
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 30px;
+    
+}
+
+footer #contact{
+    color:rgba(181, 181, 181, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 30px;
+}
+
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 10px ;
+        border:0px solid rgb(206, 7, 7);
+        width:250px;
+        font-size: 50px;
+        padding: -10px;
+        text-align: center;
+
+    }
+    .main .card {
+        margin: 10px;
+    }
+
+    header h1{
+        font-size: 75px;
+    }
+
+    
+
+    .main .content .card .right img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+        margin-top: 20px;
+    }
+}
+

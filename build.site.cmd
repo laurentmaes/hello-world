@@ -1,4 +1,3 @@
 
-CD src
-COPY 01.HEADER.html+index.BODY.html+02.FOOTER.html ..\docs\index.html
-CD ..
+
+COPY 01.HEADER.html+src\index.BODY.html+02.FOOTER.html docs\index.html
