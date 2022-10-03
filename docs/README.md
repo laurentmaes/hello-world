@@ -1,6 +1,6 @@
 # ATTENTION
 
-## Certains fichiers HTML sont écrasés par le script
+## Certains fichiers HTML de ce répertoire sont écrasés par le script !
 
 Ne pas modifier les fichiers ici, mais dans /src
 

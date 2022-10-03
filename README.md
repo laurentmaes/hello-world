@@ -1,9 +1,3 @@
-# hello-world
-My legacy Hello World Project
-This is my first step with git. It's now time to dive ...
-
-## Link
-[laurentmaes](https://laurentmaes.github.io/hello-world/)
 
 ## Transformation
 Le but de la transformation est d'éviter de dupliquer tous les entêtes et pieds de pages communs à toutes les pages. Pour cela, on va isoler dans 2 fichiers le contenu de l'entête et du pied de page, et on va modifier les pages existantes pour enlever ces 2 parties redondantes.
@@ -40,3 +34,6 @@ build.site.cmd
 REMARQUE : 
 Les 3 dernières lignes permettent d'enchainer le push sur Git sans action manuelles, mais le message de commit sera toujours le même 😒😒
 On peut commenter (REM) ces 3 lignes si on veut garder le controle manuel sur gitlab.
+
+## Link
+[laurentmaes](https://laurentmaes.github.io/hello-world/)
